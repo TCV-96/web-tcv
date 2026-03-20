@@ -1,0 +1,34 @@
+backend:
+  name: github
+    repo: TCV-96/web-tcv
+      branch: main
+
+        media_folder: "assets/images"
+        public_folder: "assets/images"
+
+        collections:
+          - name: "configuracion"
+              label: "Panel Principal (Datos de Contacto TCV)"
+                  editor:
+                        preview: false
+                            files:
+                                  - label: "Datos Base"
+                                          name: "datos"
+                                                  file: "datos_tcv.json"
+                                                          fields:
+                                                                    - {label: "Nombre Oficial", name: "company_name", widget: "string", default: "T.C.V. TECHNOLOGYCARMVEN"}
+                                                                              - {label: "Telefono WhatsApp", name: "whatsapp", widget: "string", default: "584145841929"}
+                                                                                        - {label: "Correo Electronico", name: "email", widget: "string", default: "criptofinanzas0@gmail.com"}
+                                                                                                  - {label: "Direccion y Region", name: "address", widget: "string", default: "Maturin, Estado Monagas, Venezuela"}
+                                                                                                            
+                                                                                                              - name: "servicios"
+                                                                                                                  label: "Tus Servicios"
+                                                                                                                      folder: "servicios"
+                                                                                                                          create: true
+                                                                                                                              slug: "{{year}}-{{month}}-{{title}}"
+                                                                                                                                  editor:
+                                                                                                                                        preview: false
+                                                                                                                                            fields:
+                                                                                                                                                  - {label: "Titulo del Servicio", name: "title", widget: "string"}
+                                                                                                                                                        - {label: "Descripcion Detallada", name: "description", widget: "text"}
+                                                                                                                                                              - {label: "Imagen Ilustrativa", name: "image", widget: "image", required: false}
