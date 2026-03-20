@@ -8,7 +8,7 @@ backend:
 
         collections:
           - name: "configuracion"
-              label: "Panel Principal (Datos de Contacto TCV)"
+              label: "Panel Principal"
                   editor:
                         preview: false
                             files:
