@@ -9,6 +9,14 @@
     <meta name="description" content="T.C.V. TECHNOLOGYCARMVEN | Jeferson Carmona, T.S.U en Electrónica y Docente MPPE. Soporte técnico, Ingeniería Eléctrica y Gestión Inmobiliaria Internacional en Maturín.">
     <meta name="keywords" content="Jeferson Carmona, Docente MPPE, UPT Maturín, Inmobiliaria Farro, Club de Leones, Soporte Técnico, Meta Ads Venezuela">
     <meta name="author" content="Jeferson Carmona">
+    <!-- Canonical URL for SEO -->
+    <link rel="canonical" href="https://tcv-96.github.io/web-tcv/" />
+    <!-- Open Graph meta tags -->
+    <meta property="og:title" content="TCV Technology Carmven - Soluciones Integrales y Marketing Digital" />
+    <meta property="og:description" content="Jeferson Carmona, docente MPPE y agente inmobiliario. Soporte técnico, ingeniería eléctrica y gestión inmobiliaria en Maturín." />
+    <meta property="og:url" content="https://tcv-96.github.io/web-tcv/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://tcv-96.github.io/web-tcv/LOGO_1.png" />
     
     <!-- INSERT META PIXEL HERE -->
     
@@ -73,7 +81,7 @@
     <header class="fixed w-full top-0 z-50 bg-black/80 backdrop-blur-md border-b border-gray-800/50 transition-all duration-300" id="navbar">
         <div class="max-w-5xl mx-auto px-6 py-2 flex justify-between items-center">
             <div class="flex items-center gap-2 cursor-pointer" onclick="window.scrollTo(0,0)">
-                <img src="c9920d0846b25c98a8cda88c77c5546c.png" alt="Logo TCV" class="w-8 h-8 rounded object-cover shadow-[0_0_10px_rgba(212,175,55,0.2)]">
+                <img src="LOGO_1.png" alt="Logo TCV" class="w-8 h-8 rounded object-cover shadow-[0_0_10px_rgba(212,175,55,0.2)]">
                 <div class="flex flex-col">
                     <span class="text-lg font-bold tracking-tight text-white leading-tight">T.C.V.</span>
                     <span class="text-[8px] text-accent tracking-[0.1em] font-semibold">TECHNOLOGYCARMVEN</span>
@@ -186,7 +194,7 @@
                 <div class="lg:w-2/5 flex justify-center lg:justify-end">
                     <div class="relative w-full max-w-[220px] lg:max-w-[250px] group">
                         <div class="absolute -inset-1 bg-accent/10 rounded-xl blur group-hover:bg-accent/20 transition duration-500"></div>
-                        <img src="jey.jpeg" alt="Perfil TCV" class="relative z-10 w-full h-auto object-cover rounded-xl border border-gray-800 shadow-xl">
+                        <img src="jeferson_hero.png" alt="Perfil TCV" class="relative z-10 w-full h-auto object-cover rounded-xl border border-gray-800 shadow-xl">
                     </div>
                 </div>
             </div>
@@ -235,52 +243,98 @@
             
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <!-- Unit 1: Bienes Raíces -->
-                <div class="bg-grayLight p-5 rounded-lg border border-gray-800 flex flex-col group hover:border-accent/40 transition-all duration-300 shadow-xl">
-                    <div class="flex items-center gap-4 mb-4">
-                        <div class="w-16 h-16 md:w-20 md:h-20 rounded-full border-2 border-accent shadow-lg shadow-accent/10 overflow-hidden flex-shrink-0 bg-black">
-                            <img src="jeferson_farro_id.png" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
-                        </div>
-                        <div class="flex flex-col">
-                            <h4 class="text-sm font-bold text-white uppercase tracking-tight">Inmobiliaria Farro</h4>
-                            <span class="text-[9px] text-accent/80 font-semibold tracking-widest uppercase">Gestión Internacional</span>
-                        </div>
+                <!-- Unit 1: Bienes Raíces - Premium Card -->
+                <div class="rounded-lg border border-gray-800 flex flex-col group hover:border-accent/40 transition-all duration-300 shadow-xl overflow-hidden">
+                    <!-- Banner superior con imagen de tarjeta profesional -->
+                    <div class="relative h-[180px] w-full bg-black overflow-hidden">
+                        <img src="jeferson_farro_id.png" alt="Jeferson Carmona - Agente Inmobiliario Farro" class="w-full h-full object-cover object-top opacity-90 group-hover:scale-105 transition-transform duration-500">
+                        <!-- Overlay degradado -->
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#1A1A1A] via-transparent to-transparent"></div>
+                        <!-- Badge Agencia -->
+                        <div class="absolute top-2 right-2 bg-accent text-black text-[7px] font-black px-2 py-0.5 rounded uppercase tracking-widest">Agencia VE-43</div>
                     </div>
-                    <p class="text-[10px] text-gray-400 mb-4 flex-grow leading-relaxed">Coordinador y Agente Inmobiliario Certificado. Gestión de carteras en <span class="text-white">22 países</span> con liderazgo desde Maturín.</p>
-                    <div class="grid grid-cols-2 gap-3 mb-4">
-                        <a href="https://farro.inmo.co/" target="_blank" class="text-[9px] text-accent hover:underline flex items-center gap-1 font-medium"><i class="fas fa-external-link-alt text-[7px]"></i> Catálogo Farro</a>
-                        <a href="https://ubikme.net/" target="_blank" class="text-[9px] text-accent hover:underline flex items-center gap-1 font-medium"><i class="fas fa-external-link-alt text-[7px]"></i> Ubikme</a>
-                    </div>
-                    <div class="flex items-center justify-between pt-3 border-t border-gray-800">
-                        <div class="flex gap-2">
-                            <a href="https://www.instagram.com/jefersonc.farrocostamar/" target="_blank" class="text-gray-500 hover:text-accent transition-colors"><i class="fab fa-instagram text-xs"></i></a>
+                    <!-- Contenido -->
+                    <div class="bg-grayLight p-4 flex flex-col flex-grow">
+                        <div class="flex items-start gap-4 mb-3">
+                            <!-- Circular Image Jeferson -->
+                            <div class="relative flex-shrink-0">
+                                <div class="w-20 h-20 rounded-full border-2 border-accent overflow-hidden shadow-[0_0_15px_rgba(212,175,55,0.3)]">
+                                    <img src="jeferson_azul.png" alt="Jeferson Carmona" class="w-full h-full object-cover object-left scale-110">
+                                </div>
+                            </div>
+                            <div class="flex flex-col justify-center h-20">
+                                <h4 class="text-sm font-bold text-white uppercase tracking-tight leading-tight">Inmobiliaria Farro</h4>
+                                <span class="text-[8px] text-accent/80 font-semibold tracking-widest uppercase">Gestión Internacional</span>
+                            </div>
                         </div>
-                        <a href="https://wa.me/584145841929" target="_blank" class="text-[8px] bg-accent/10 border border-accent/20 text-accent px-3 py-1.5 rounded-full hover:bg-accent hover:text-black transition-all font-bold tracking-widest uppercase">CONSULTAR</a>
+                        <p class="text-[10px] text-gray-400 mb-3 flex-grow leading-relaxed">
+                            Coordinador y Agente Inmobiliario Certificado. Gestión de carteras en <span class="text-accent">22 países</span> con liderazgo desde Maturín.
+                        </p>
+                        <!-- Info de contacto -->
+                        <div class="text-[8px] text-gray-500 mb-3 space-y-0.5">
+                            <div class="flex items-center gap-1"><i class="fas fa-envelope text-accent/50"></i> agentejefersoncarmona@gmail.com</div>
+                            <div class="flex items-center gap-1"><i class="fab fa-instagram text-accent/50"></i> @Jefersonc.farrocostamar</div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-2 mb-3">
+                            <a href="https://farro.inmo.co/" target="_blank" class="text-[9px] text-accent hover:underline flex items-center gap-1 font-medium"><i class="fas fa-external-link-alt text-[7px]"></i> Catálogo Farro</a>
+                            <a href="https://ubikme.net/" target="_blank" class="text-[9px] text-accent hover:underline flex items-center gap-1 font-medium"><i class="fas fa-external-link-alt text-[7px]"></i> Ubikme</a>
+                        </div>
+                        <div class="flex items-center justify-between pt-3 border-t border-gray-800">
+                            <div class="flex gap-3">
+                                <a href="https://www.instagram.com/jefersonc.farrocostamar/" target="_blank" class="text-gray-500 hover:text-accent transition-colors"><i class="fab fa-instagram text-xs"></i></a>
+                                <a href="https://www.facebook.com/jefersonc.inmofarrocostamar" target="_blank" class="text-gray-500 hover:text-accent transition-colors"><i class="fab fa-facebook-f text-xs"></i></a>
+                                <a href="https://www.tiktok.com/@farrocarmona" target="_blank" class="text-gray-500 hover:text-accent transition-colors"><i class="fab fa-tiktok text-xs"></i></a>
+                            </div>
+                            <a href="https://wa.me/584264074587" target="_blank" class="text-[8px] bg-accent/10 border border-accent/20 text-accent px-3 py-1.5 rounded-full hover:bg-accent hover:text-black transition-all font-bold tracking-widest uppercase">CONSULTAR</a>
+                        </div>
                     </div>
                 </div>
 
                 <!-- Unit 2: Impacto Social -->
-                <div class="bg-grayLight p-5 rounded-lg border border-gray-800 flex flex-col group hover:border-blue-500/40 transition-all duration-300 shadow-xl">
-                    <div class="flex items-center gap-4 mb-4">
-                        <div class="flex -space-x-3">
-                            <div class="w-16 h-16 md:w-20 md:h-20 rounded-full bg-white p-1 border-2 border-blue-900 overflow-hidden shadow-lg z-10">
-                                <img src="Club de Leones Lions Internationa.png" alt="Lions" class="w-full h-full object-contain">
+                <div class="rounded-lg border border-gray-800 flex flex-col group hover:border-blue-500/40 transition-all duration-300 shadow-xl overflow-hidden">
+                    <!-- Banner superior con logos grandes -->
+                    <div class="relative h-[180px] w-full bg-[#0a1628] overflow-hidden flex items-center justify-center">
+                        <div class="absolute inset-0 bg-gradient-to-br from-blue-900/40 via-[#0a1628] to-yellow-900/20"></div>
+                        <div class="relative z-10 flex items-center justify-center gap-8">
+                            <div class="w-24 h-24 rounded-full border-2 border-blue-700 overflow-hidden shadow-2xl">
+                                <img src="lions_inter.png" alt="Lions International" class="w-full h-full object-cover object-center">
                             </div>
-                            <div class="w-16 h-16 md:w-20 md:h-20 rounded-full bg-white p-1 border-2 border-yellow-600 overflow-hidden shadow-lg">
-                                <img src="Club_Maturin.png" alt="Lions Maturin" class="w-full h-full object-contain">
+                            <div class="w-24 h-24 rounded-full border-2 border-yellow-500 overflow-hidden shadow-2xl">
+                                <img src="club_maturin.png" alt="Club Maturin" class="w-full h-full object-cover object-center">
                             </div>
                         </div>
-                        <div class="flex flex-col">
-                            <h4 class="text-sm font-bold text-white uppercase tracking-tight">Club de Leones</h4>
-                            <span class="text-[9px] text-blue-400/80 font-semibold tracking-widest uppercase">Lions International</span>
-                        </div>
+                        <div class="absolute top-2 right-2 bg-blue-800 text-white text-[7px] font-black px-2 py-0.5 rounded uppercase tracking-widest">Distrito E4 VE</div>
                     </div>
-                    <p class="text-[10px] text-gray-400 mb-4 flex-grow leading-relaxed">Asesor de Marketing y Coordinador. Integración de <span class="text-white">Lion AI Elli</span> para proyectos de impacto social global.</p>
-                    <div class="flex items-center justify-between pt-3 border-t border-gray-800">
-                        <div class="flex items-center gap-3">
-                            <a href="https://www.lionsclubs.org/es" target="_blank" class="text-[9px] text-accent hover:underline flex items-center gap-1 font-medium"><i class="fas fa-globe text-[7px]"></i> Global Site</a>
-                            <a href="https://www.instagram.com/clubdeleonesmaturinoficial/" target="_blank" class="text-gray-500 hover:text-accent transition-colors"><i class="fab fa-instagram text-xs"></i></a>
+                    <!-- Contenido -->
+                    <div class="bg-grayLight p-4 flex flex-col flex-grow">
+                        <div class="flex items-center gap-3 mb-3">
+                            <div class="flex -space-x-2">
+                                <div class="w-7 h-7 rounded-full border border-blue-700 overflow-hidden z-10">
+                                    <img src="lions_inter.png" alt="Lions" class="w-full h-full object-cover">
+                                </div>
+                                <div class="w-7 h-7 rounded-full border border-yellow-600 overflow-hidden">
+                                    <img src="club_maturin.png" alt="Maturin" class="w-full h-full object-cover">
+                                </div>
+                            </div>
+                            <div class="flex flex-col">
+                                <h4 class="text-sm font-bold text-white uppercase tracking-tight leading-tight">Club de Leones</h4>
+                                <span class="text-[8px] text-blue-400/80 font-semibold tracking-widest uppercase">Lions International</span>
+                            </div>
                         </div>
-                        <span class="text-[7px] text-gray-600 font-bold uppercase tracking-widest bg-black/40 px-2 py-1 rounded">Aliado Social</span>
+                        <p class="text-[10px] text-gray-400 mb-3 flex-grow leading-relaxed">Asesor de Marketing y Coordinador. Integración de <a href="https://www.lionsclubs.org/es/lion-ai" target="_blank" class="text-white font-semibold hover:text-blue-400 transition-colors">Lion AI Elli</a> para proyectos de impacto social global.</p>
+                        <!-- Botón Lion AI Elli -->
+                        <a href="https://www.lionsclubs.org/es/lion-ai" target="_blank" id="btn-lion-ai" class="flex items-center justify-center gap-2 w-full py-2 mb-3 rounded-lg bg-blue-900/40 border border-blue-700/50 text-blue-300 hover:bg-blue-800/60 hover:text-white hover:border-blue-500 transition-all duration-300 text-[9px] font-bold uppercase tracking-widest group">
+                            <i class="fas fa-robot text-blue-400 group-hover:text-white transition-colors"></i>
+                            Conoce a Lion AI Elli
+                            <i class="fas fa-external-link-alt text-[7px] opacity-60"></i>
+                        </a>
+                        <div class="flex items-center justify-between pt-3 border-t border-gray-800">
+                            <div class="flex items-center gap-3">
+                                <a href="https://www.lionsclubs.org/es" target="_blank" class="text-[9px] text-accent hover:underline flex items-center gap-1 font-medium"><i class="fas fa-globe text-[7px]"></i> Global Site</a>
+                                <a href="https://www.instagram.com/clubdeleonesmaturinoficial/" target="_blank" class="text-gray-500 hover:text-accent transition-colors"><i class="fab fa-instagram text-xs"></i></a>
+                            </div>
+                            <span class="text-[7px] text-gray-600 font-bold uppercase tracking-widest bg-black/40 px-2 py-1 rounded">Aliado Social</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -302,7 +356,7 @@
                 <!-- Service 1: Soporte Técnico -->
                 <div class="bg-grayLight rounded-lg border border-gray-800 group overflow-hidden grid grid-cols-1 md:grid-cols-[auto_1fr] items-center">
                     <div class="h-[180px] md:h-[240px] w-full md:w-[280px] bg-black">
-                        <img src="Ingenieria Electronica y Soporte.jpeg" alt="Soporte Técnico" class="w-full h-full object-contain">
+                        <img src="servicios_tecnicos.jpg.jpeg" alt="Soporte Técnico" class="w-full h-full object-contain">
                     </div>
                     <div class="p-3 lg:p-4 text-center md:text-left">
                         <div class="flex items-center gap-2 mb-1 justify-center md:justify-start">
@@ -325,7 +379,7 @@
                 <!-- Service 2: Marketing Digital -->
                 <div class="bg-grayLight rounded-lg border border-gray-800 group overflow-hidden grid grid-cols-1 md:grid-cols-[auto_1fr] items-center hover:border-accent/30 transition-all duration-300">
                     <div class="h-[180px] md:h-[240px] w-full md:w-[280px] bg-black">
-                        <img src="Marketing Digital Corporativo.jpeg" alt="Marketing Digital" class="w-full h-full object-contain">
+                        <img src="servicios_marketing.jpg.jpeg" alt="Marketing Digital" class="w-full h-full object-contain">
                     </div>
                     <div class="p-4 lg:p-6 text-center md:text-left">
                         <div class="flex items-center gap-2 mb-2 justify-center md:justify-start">
@@ -348,7 +402,7 @@
                 <!-- Service 3: Electricidad de Potencia -->
                 <div class="bg-grayLight rounded-lg border border-gray-800 group overflow-hidden grid grid-cols-1 md:grid-cols-[auto_1fr] items-center">
                     <div class="h-[180px] md:h-[240px] w-full md:w-[280px] bg-black">
-                        <img src="2xb20240401100054.png" alt="Electricidad de Potencia e Industrial" class="w-full h-full object-contain">
+                        <img src="servicios_electricidad.png" alt="Electricidad de Potencia e Industrial" class="w-full h-full object-contain">
                     </div>
                     <div class="p-3 lg:p-4 text-center md:text-left">
                         <div class="flex items-center gap-2 mb-1 justify-center md:justify-start">
@@ -401,7 +455,7 @@
         <div class="max-w-5xl mx-auto px-6">
             <div class="flex flex-col md:flex-row justify-between items-center gap-3">
                 <div class="flex items-center gap-2">
-                    <img src="c9920d0846b25c98a8cda88c77c5546c.png" alt="Logo" class="w-8 h-8 rounded-sm">
+                    <img src="LOGO_1.png" alt="Logo" class="w-8 h-8 rounded-sm">
                     <span class="text-[10px] font-black text-white tracking-tighter">T.C.V. TECHNOLOGY</span>
                 </div>
                 

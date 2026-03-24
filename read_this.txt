@@ -1,0 +1,20 @@
+﻿cmd : "git" no se reconoce 
+como un comando interno o 
+externo,
+En línea: 1 Carácter: 1
++ cmd /c "git add index.html 
+&& git commit -m 'Update SEO 
+tags to GitHu ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified: ("git" n  
+  o se rec...erno o extern   
+ o,:String) [], RemoteExc    
+eption
+    + FullyQualifiedErrorId  
+   : NativeCommandError
+ 
+programa o archivo por lotes 
+ejecutable.
